@@ -1,0 +1,25 @@
+{
+  "name": "fcc-learn-npm-package-json",
+  "author": "Tousif Tasrik",
+  "description": "Learning backend api course from freeCodeCamp",
+  "keywords": [
+    "api",
+    "node js",
+    "express",
+    "easy",
+    "freecodecamp"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freeCodeCamp/boilerplate-npm.git"
+  }
+}
