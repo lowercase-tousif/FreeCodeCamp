@@ -33,6 +33,8 @@ app.get("/api/whoami", (req, res) => {
 });
 
 // listener for incoming requests
-var listener = app.listen(process.env.PORT || 3000, function () {
-  console.log("Your app is listening on port " + listener.address().port);
-});
+if (require.main === module) {
+  const listener = app.listen(process.env.PORT || 3000, function () {
+    console.log("Your app is listening on port " + listener.address().port);
+  });
+}
